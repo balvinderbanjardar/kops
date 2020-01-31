@@ -62,6 +62,8 @@ export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id)
 export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key)
 ```
 
+SKIP from here ...*****************************************************
+***********************************************************************
 ## Configure DNS
 
 Note: If you are using Kops 1.6.2 or later, then DNS configuration is
@@ -229,6 +231,11 @@ with the cluster's DNS.
 
 **Please DO NOT MOVE ON until you have validated your NS records! This is not required if a gossip-based cluster is created.**
 
+
+**************************************************************************************************************
+**************************************************************************************************************
+Skip till here************************************************************************************************
+**************************************************************************************************************
 ## Cluster State storage
 
 In order to store the state of your cluster, and the representation of your
